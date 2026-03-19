@@ -67,6 +67,19 @@ p {
   display: block;
 }
 
+@media (max-width: 576px) {
+  .app-title {
+    text-align: center;
+  }
+  .app-description {
+    text-align: center;
+  }
+  .app-launch {
+    display: flex;
+    justify-content: center;
+  }
+}
+
 .about-paragraphs {
   margin: 30px 0;
 }
