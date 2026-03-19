@@ -67,16 +67,18 @@ p {
   display: block;
 }
 
-@media (max-width: 576px) {
+@media (max-width: 500px) {
   .app-title {
     text-align: center;
   }
   .app-description {
     text-align: center;
+    margin: 10px;
   }
   .app-launch {
     display: flex;
     justify-content: center;
+    margin: 10px;
   }
 }
 
