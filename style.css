@@ -71,18 +71,20 @@ p {
   display: block;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 600px) {
   .app-title {
     text-align: center;
   }
+
   .app-description {
     text-align: center;
-    margin: 10px;
+    margin: 10px 20px;
   }
+
   .app-launch {
     display: flex;
     justify-content: center;
-    margin: 10px;
+    margin: 10px 20px;
   }
 }
 
